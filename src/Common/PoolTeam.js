@@ -1,0 +1,17 @@
+import { useSelector, useDispatch } from 'react-redux'
+import { BigNumber, ethers } from 'ethers';
+import React from 'react'; 
+
+
+    
+export default async function PoolTeam(ids , contract , contractABI) {
+    const { ethereum } = window;
+    const provider = new ethers.providers.Web3Provider(ethereum);
+    const signer = provider.getSigner();
+    const contractinstance = new ethers.Contract(contract, contractABI, signer);   
+    var TeamInfo = await contractinstance.TeamInfo(ids);
+     
+    return TeamInfo;   
+    //return 1;
+}
+ 

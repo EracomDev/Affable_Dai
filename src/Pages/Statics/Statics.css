@@ -1,0 +1,87 @@
+#staticSearchDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background: var(--containerColor);
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+#staticSearchDiv input:focus-visible {
+    border-color: var(--colorPrimary);
+}
+
+#staticSearchDiv input {
+    background: transparent;
+    color: grey;
+    font-size: 14px;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    border-radius: 24px;
+    width: 300px;
+    padding-right: 40px;
+}
+
+#staticSearchDiv>div {
+    position: relative;
+}
+
+#staticSearchDiv h1 {
+    margin: 0 !important;
+}
+
+#staticSearchDiv>div>i {
+    position: absolute;
+    right: 12px;
+    top: 1px;
+    font-size: 24px;
+    color: grey;
+}
+
+.staticTable {
+    margin-top: 40px;
+    overflow-x: scroll;
+}
+
+.staticTable table {
+    width: 100%;
+    background: var(--containerColor);
+    text-align: center;
+
+}
+
+.staticTable td {
+    padding: 10px;
+    color: white;
+}
+
+.staticTable th {
+    padding: 10px;
+    color: var(--colorPrimary);
+}
+
+.staticTable tr:nth-child(even) {
+    background: #52525247;
+}
+
+td,
+th {
+    white-space: nowrap !important;
+}
+
+@media (max-width: 800px) {
+    #staticSearchDiv {
+        padding: 10px;
+    }
+
+    #staticSearchDiv h1 {
+        font-size: 20px !important;
+    }
+
+    #staticSearchDiv input {
+        width: 200px;
+        padding: 10px;
+        padding-right: 40px;
+    }
+}

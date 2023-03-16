@@ -1,0 +1,115 @@
+#partnersPackageImgs img {
+    width: 70%;
+    margin: auto;
+    display: block
+}
+
+#partnersImgs {
+    margin-top: 40px;
+}
+
+#partnersPackageImgs p {
+    margin: auto;
+    width: 70%;
+    padding: 3px;
+    color: black;
+    background: linear-gradient(to right, #96792D,
+            #C5A454,
+            #F8E895,
+            #D9BB6E,
+            #F3D67F,
+            #A88D46);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.partnersImgsRotate {
+    position: relative;
+}
+
+.partnersImgsRotate p {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    color: black;
+    background: linear-gradient(to right,
+            #96792D, #C5A454, #F8E895, #D9BB6E, #F3D67F, #A88D46);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+#partnerImgBorder {
+    width: 100%;
+    animation: rotate 8s linear infinite;
+}
+
+#partnerImgRotate {
+    z-index: 1;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7%;
+}
+
+#tdImg img {
+    width: 70px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    #partnersPackageImgs img {
+        width: 100%;
+    }
+
+    #partnersPackageImgs p {
+        width: 100%;
+    }
+
+    #partnerImgBorder {
+        width: 70%;
+        animation: rotate 8s linear infinite;
+        display: block;
+        margin: auto;
+    }
+
+    #partnerImgRotate {
+        z-index: 1;
+        width: 56%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6%;
+    }
+
+    .partnersImgsRotate {
+        margin-bottom: 40px;
+    }
+}

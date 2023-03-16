@@ -1,0 +1,350 @@
+#logoDiv img {
+    width: 150px;
+}
+
+#logoDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutNameValue {
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #52525247;
+}
+
+#aboutNameValue>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 1px solid #bfa052;
+}
+
+#aboutNameValue>div>h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+#aboutNameValue>div>p {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dashboardDiv {
+    padding-bottom: 100px;
+}
+
+.imgDiv {
+    box-sizing: border-box;
+}
+
+.imgDiv img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.imgDiv h1,
+.heading {
+    color: var(--colorPrimary);
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,
+            #462523 0,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%,
+            #462523 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.btnBuy {
+    color: black;
+    margin: 0 auto;
+    display: block;
+    padding: 3px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: var(--colorPrimary);
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    min-width: 60%;
+    transition: all 0.3s;
+}
+
+.btnBgRed {
+    /* background: linear-gradient(45deg, rgba(63, 63, 199, 0.719), rgb(102, 51, 153)); */
+    background: rgb(177, 57, 57);
+    transition: all 0.3s;
+}
+
+.btnBgRed:hover {
+    border-color: rgb(177, 57, 57) !important;
+    background: transparent !important;
+    color: rgb(177, 57, 57) !important;
+}
+
+.btnBgGreen {
+    background: green;
+    transition: all 0.3s;
+}
+
+.btnBgGreen:hover {
+    border-color: green !important;
+    background: transparent !important;
+    color: green !important;
+}
+
+.btnBuy:hover {
+    border-color: var(--colorPrimary);
+    background: transparent;
+    color: var(--colorPrimary);
+}
+
+#bgrotate {
+    position: absolute;
+    z-index: 1;
+    width: 88%;
+    left: 50%;
+    top: 13px;
+    transform: translateX(-50%);
+}
+
+#bgborder {
+    width: 100%;
+    animation: rotate 6s linear infinite;
+}
+
+#imgRotateDiv {
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.affablePool {
+    padding: 50px 0;
+}
+
+.affablePool img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.qualifiedDate {
+    text-align: center;
+    font-weight: bold;
+    color: var(--colorPrimary);
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.maticStatus {
+    padding-top: 50px;
+}
+
+.maticStatusTable {
+    width: 100%;
+    text-align: center;
+}
+
+.maticStatusTable tr {
+    border-bottom: 1px solid #ffffff14;
+}
+
+#maticStatusTableCol {
+    background: #52525247 !important;
+    padding: 30px 0;
+    overflow-x: scroll;
+}
+
+
+
+.maticStatusTable tr {
+    padding: 10px 0;
+}
+
+.maticStatus th {
+    padding: 10px;
+    color: var(--colorPrimary);
+    font-size: 20px;
+}
+
+.maticStatus td {
+    padding: 10px;
+    color: rgb(230, 226, 226);
+    font-size: 14px;
+}
+
+.maticStatusTableTotal td {
+    color: var(--colorPrimary);
+    font-weight: bold;
+}
+
+.globalCommunityTable {
+    background-color: var(--containerColor);
+    overflow-x: scroll;
+}
+
+.globalCommunityTable table {
+    width: 100%;
+    text-align: center;
+}
+
+.globalCommunityTable th {
+    color: var(--colorPrimary);
+    padding: 10px;
+}
+
+.globalCommunityTable td {
+    padding: 10px;
+    color: white;
+}
+
+.globalCommunityTable tr:nth-child(even) {
+    background: #52525247;
+}
+
+.communityLevelSection {
+    padding: 50px 0;
+}
+
+.copyTextIcon {
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#poolTableTextAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+#poolTableTextAndButton p {
+    margin: 0;
+    width: 70% !important;
+    color: rgb(229, 230, 228);
+    font-size: 12
+}
+
+#poolTableTextAndButton button {
+    min-width: 100px !important;
+    margin: auto;
+
+}
+
+.headingWithButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingWithButton>button {
+    padding: 10px 40px;
+    border: 1px solid var(--colorPrimary);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #96792D,
+            #C5A454,
+            #F8E895,
+            #D9BB6E,
+            #F3D67F,
+            #A88D46);
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+
+.headingWithButton>button:hover {
+    filter: brightness(0.7);
+}
+
+@media (max-width: 800px) {
+    #imgRotateDiv {
+        width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    .affablePool img {
+        width: 100%;
+    }
+
+    .qualifiedDate {
+        text-align: center;
+        font-weight: bold;
+        color: var(--colorPrimary);
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .maticStatus {
+        padding-top: 0;
+    }
+
+    #aboutNameValue {
+        margin-bottom: 20px !important;
+    }
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 800px) {
+    .imgDiv img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #bgrotate {
+        left: 50%;
+        top: -6px;
+    }
+
+    .btnBuy {
+        font-size: 12px;
+    }
+
+    .heading,
+    .imgDiv h1 {
+        font-size: 25px;
+    }
+}
